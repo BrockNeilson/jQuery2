@@ -17,7 +17,7 @@ First, fork and clone this repo, so that we can access this README during our de
 
 After that, let's create a folder called 'app'. This is where we will store the guts of our app. Inside the app folder let's make a folder called 'scripts'. This is where we will store our JavaScript. 
 
-Inside the js folder we will create our main javascript named something awesome like 'main.js'. 
+Inside the js folder we will create our main app javascript named something awesome like 'app.js'. 
 
 Then inside the app folder we will create a folder called 'Styles', this is where we will store our CSS files. Inside the 'Styles' folder let's make a file called main.css so that we have a place to style things. 
 
