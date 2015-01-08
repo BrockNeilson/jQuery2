@@ -8,12 +8,29 @@
 </head>
 <body>
 
-<form>
-	<label>New Item</label>
-	<input id="newItemInput" placeholder="New Task">
-	<button id="saveNewItem">Save</button>
-	<button id="cancel">Cancel</button>
-</form>
+	<div class='new-item-header'>
+		<button href="#" class="pull-right pencil" id="newListItem" style="">New</button>
+	</div>
+
+	<form>
+		<label>New Item</label>
+		<input id="newItemInput" placeholder="New Task">
+		<button id="saveNewItem">Save</button>
+		<button id="cancel">Cancel</button>
+	</form>
+
+	<div id="newList">
+	</div>
+
+	<div class="panel">
+		In Progress
+		<ul class="list-group" id="currentList"></ul>
+	</div>
+
+	<div class="panel">
+		Archived
+		<ul class="list-group" id="archivedList"></ul>
+	</div>
 
 
 
