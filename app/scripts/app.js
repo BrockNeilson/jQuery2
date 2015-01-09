@@ -2,12 +2,15 @@ $(document).ready(function() {
 
 var listo = [];
 
+
 $('#newTaskForm').hide();
+
 
 var task = function(task) {
 	this.task = task;
 	this.id = new;
-}
+};
+
 
 var addTask = function(task) {
 	if(task) {
@@ -37,7 +40,7 @@ $('#newListItem').on('click', function () {
 $('#cancel').on('click', function(e) {
 	e.preventDefault();
 	$('#newTaskForm, #newListItem').fadeToggle('fast', 'linear');
-})
+});
 
 
 
